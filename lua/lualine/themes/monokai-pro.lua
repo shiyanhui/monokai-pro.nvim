@@ -3,8 +3,8 @@ local colors = require("monokai-pro.colorscheme")
 local M = {}
 
 M.normal = {
-  a = { bg = colors.base.yellow, fg = colors.base.black, gui = "bold" },
-  b = { bg = colors.base.dimmed5, fg = colors.base.yellow },
+  a = { bg = colors.base.cyan, fg = colors.base.black, gui = "bold" },
+  b = { bg = colors.base.dimmed5, fg = colors.base.cyan },
   c = {
     bg = colors.statusBar.background,
     fg = colors.statusBar.activeForeground,
@@ -21,8 +21,8 @@ M.insert = {
 }
 
 M.command = {
-  a = { bg = colors.base.yellow, fg = colors.base.black },
-  b = { bg = colors.base.dimmed5, fg = colors.base.yellow },
+  a = { bg = colors.base.cyan, fg = colors.base.black },
+  b = { bg = colors.base.dimmed5, fg = colors.base.cyan },
 }
 
 M.visual = {
@@ -36,7 +36,7 @@ M.replace = {
 }
 
 M.inactive = {
-  a = { bg = colors.base.black, fg = colors.base.yellow },
+  a = { bg = colors.base.black, fg = colors.base.cyan },
   b = { bg = colors.base.black, fg = colors.base.black },
   -- c = { bg = colors.base.black, fg = colors.base.black },
 }
